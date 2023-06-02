@@ -4,6 +4,6 @@ This is the pytorch implementation of our paper
 
 ## Environment
 - Anaconda 3
-- python 3.8.12
-- pytorch 1.7.0
-- numpy 1.21.2
+- Python 3.8.12
+- Pytorch 1.7.0
+- Numpy 1.21.2
