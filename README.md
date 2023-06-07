@@ -10,7 +10,7 @@ This is the pytorch implementation of our paper
 
 
 ## run code
-First, change the *ROOT_PATH* in the world.py to your own root path
+First, change the `ROOT_PATH` in the `world.py` to your own root path
 
 Second, run the PDRO:
 ```bash
