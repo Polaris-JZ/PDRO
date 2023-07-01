@@ -56,7 +56,8 @@ print("Test:")
 t_results = Procedure.Test(dataset, Recmodel, predictor, 0, w, world.config['multicore'], 1)
 Procedure.print_results(None, None, t_results)
 
-for i in range(world.config['group_num']):
+group_num = 5
+for i in range(group_num):
     t_group= Procedure.Test_group(i, dataset, Recmodel, predictor, 0, w, world.config['multicore'], 1)
     Procedure.print_results_group(i, None, None, t_group)
 

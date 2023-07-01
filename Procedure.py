@@ -161,8 +161,9 @@ def Test_group(cnt, dataset, Recmodel, predictor, epoch, w=None, multicore=0, fl
         pool = multiprocessing.Pool(CORES)
 
     # group = dataset.group_user
-    group = np.load('/storage/jjzhao/jujia_ws/cikm_huawei/LightGCN_tdro/loss_group.npy', allow_pickle=True).item()
+    group = np.load('micro_video/loss_group.npy', allow_pickle=True).item()
     group_test = {}
+    # print(group)
     for user in testDict:
         if group[user] == cnt:
             group_test[user] = testDict[user]
