@@ -2,8 +2,6 @@
 This is the pytorch implementation of our paper
 > Popularity-aware Distributionally Robust Optimization for Recommendation System
 
-- Last update : 2023-07-01 (update `README.md`)
-
 ## Environment
 - Anaconda 3
 - Python 3.8.12
