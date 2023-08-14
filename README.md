@@ -18,7 +18,7 @@ sh run.sh micro_video lgn 1e-3 0.001 0.3 0.17 3 8 0.3 1 4 0.2 0 log_0 0
 ```
 
 ## Inference (Including Group Evluation)
-Inference the PDRO on Micro-video dataset:
+Infer the PDRO on Micro-video dataset:
 ```bash
 sh inference.sh micro_video lgn 1e-3 0.001 0.3 0.17 5 8 0.3 1 4 0.2 0 log_0 1
 ```
