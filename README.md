@@ -12,7 +12,7 @@ This is the pytorch implementation of our paper
 The Micro-video dataset, sourced from the Huawei micro-video App integrated into Huawei mobile phones, comprises a collection of user-item interactions spanning a month. This dataset encompasses a wide range of interactions with diverse micro-videos.
 
 | #user | #item | #Interaction |
-|:-----:|:-----:|:-----:|
+|:--------:|:--------:|:--------:|
 | 25,871 | 44.503 | 210.550 |
 ## Training
 Run the PDRO on Micro-video dataset:
