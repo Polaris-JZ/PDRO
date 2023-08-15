@@ -13,7 +13,7 @@ The Micro-video dataset, sourced from the Huawei micro-video App integrated into
 
 | #user | #item | #Interaction |
 |:--------:|:--------:|:--------:|
-| 25,871 | 44.503 | 210,550 |
+| 25,871 | 44,503 | 210,550 |
 ## Training
 Run the PDRO on Micro-video dataset:
 ```bash
